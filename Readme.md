@@ -160,8 +160,10 @@ char uart_getchar() {
 The ADC operates from 0V to 5V, It needs conditioning circuit, so ciruit uses an op-amp to scale and offset an incoming signal from -10V to 10V to 0V to 5V.
 It does this with a divide by four voltage divider and then a voltage adder with a 2.5V input from a voltage divider. All resistors in the schematic are 10kΩ except for R11 with is 1 MΩ to make the scope appear as a high impedence to whatever circuit it is measuring.
 
-![Signal Conditioning](fafd.jpg)
 
 ## Results
 
-![Circuit Diagram](avr-osiclocope.SVG)
+[Proteus8.5 Simulation File](avr-osiclocope.pdsprj)
+
+![avr-osiclocope](avr-osiclocope.SVG)
+
