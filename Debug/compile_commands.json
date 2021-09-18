@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/moises0621/embedded-workspace/Debug",
+  "command": "avr-gcc -DBAUD=115200 -DF_CPU=16000000UL  -g   -mmcu=atmega328p -std=gnu99 -Os -Wno-main -Wundef -pedantic -Wl,--relax,--gc-sections -g -gdwarf-2 -funsigned-char -funsigned-bitfields -fpack-struct -fshort-enums -ffunction-sections -fdata-sections -fno-split-wide-types -fno-tree-scev-cprop -o CMakeFiles/AVR-Osciloscope.dir/src/main.c.o   -c /home/moises0621/embedded-workspace/src/main.c",
+  "file": "/home/moises0621/embedded-workspace/src/main.c"
+}
+]

@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/moises0621/embedded-workspace/src/main.c
+avr/io.h
+-
+avr/interrupt.h
+-
+stdint.h
+-
+stdbool.h
+-
+util/setbaud.h
+-
+
