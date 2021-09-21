@@ -1,4 +1,5 @@
 /home/moises0621/embedded-workspace/Debug/CMakeFiles/rebuild_cache.dir
+/home/moises0621/embedded-workspace/Debug/CMakeFiles/eeprom.dir
 /home/moises0621/embedded-workspace/Debug/CMakeFiles/hex.dir
 /home/moises0621/embedded-workspace/Debug/CMakeFiles/strip.dir
 /home/moises0621/embedded-workspace/Debug/CMakeFiles/edit_cache.dir

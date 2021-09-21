@@ -1,5 +1,5 @@
-# Osciloscope - Using Atemga328p 
-AVR - Atmega328p Ocilocope at the limit. 150ksps oscilocope with edge triggering writen in AVR-C
+# Oscilloscope- Using Atemga328p 
+AVR - Atmega328p oscilloscope at the limit. 150ksps oscilocope with edge triggering writen in AVR-C
 ### General Features
 > * 150ksps 
 > * -10v,10v input
@@ -165,5 +165,5 @@ It does this with a divide by four voltage divider and then a voltage adder with
 
 [Proteus8.5 Simulation File](avr-osiclocope.pdsprj)
 
-![avr-osiclocope](avr-osiclocope.SVG)
+![avr-osiclocope](avr-osiclocope.BMP)
 

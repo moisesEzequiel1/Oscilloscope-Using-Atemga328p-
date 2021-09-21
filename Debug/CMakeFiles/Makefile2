@@ -65,11 +65,39 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/eeprom.dir/clean
 clean: CMakeFiles/hex.dir/clean
 clean: CMakeFiles/strip.dir/clean
 clean: CMakeFiles/AVR-Osciloscope.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/eeprom.dir
+
+# All Build rule for target.
+CMakeFiles/eeprom.dir/all: CMakeFiles/strip.dir/all
+	$(MAKE) -f CMakeFiles/eeprom.dir/build.make CMakeFiles/eeprom.dir/depend
+	$(MAKE) -f CMakeFiles/eeprom.dir/build.make CMakeFiles/eeprom.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/moises0621/embedded-workspace/Debug/CMakeFiles --progress-num= "Built target eeprom"
+.PHONY : CMakeFiles/eeprom.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/eeprom.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moises0621/embedded-workspace/Debug/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/eeprom.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/moises0621/embedded-workspace/Debug/CMakeFiles 0
+.PHONY : CMakeFiles/eeprom.dir/rule
+
+# Convenience name for target.
+eeprom: CMakeFiles/eeprom.dir/rule
+
+.PHONY : eeprom
+
+# clean rule for target.
+CMakeFiles/eeprom.dir/clean:
+	$(MAKE) -f CMakeFiles/eeprom.dir/build.make CMakeFiles/eeprom.dir/clean
+.PHONY : CMakeFiles/eeprom.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/hex.dir

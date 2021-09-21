@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named eeprom
+
+# Build rule for target.
+eeprom: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 eeprom
+.PHONY : eeprom
+
+# fast build rule for target.
+eeprom/fast:
+	$(MAKE) -f CMakeFiles/eeprom.dir/build.make CMakeFiles/eeprom.dir/build
+.PHONY : eeprom/fast
+
+#=============================================================================
 # Target rules for targets named hex
 
 # Build rule for target.
@@ -183,6 +196,7 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
+	@echo "... eeprom"
 	@echo "... hex"
 	@echo "... strip"
 	@echo "... edit_cache"
